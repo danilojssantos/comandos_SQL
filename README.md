@@ -58,3 +58,19 @@ U - Update -> `UPADATE`
 
 D - Delete -> `DELETE`
 
+
+## INSERT INTO 
+
+A INSERT INTO instrução é usada para inserir novos registros em uma tabela.
+
+```bash
+INSERT INTO users(name, email, password)
+VALUES
+('Danilo','danilojssantos1@gmail.com','123')
+```
+## SELECT 
+SELECT * FROM instrução é usada para selecionar dados de um banco de dados, retornar todas as colunas
+
+```bash
+SELECT * FROM users
+```
