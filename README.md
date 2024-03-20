@@ -47,3 +47,14 @@ Para excluir uma coluna de uma tabela, use a seguinte exemplo:
 ALTER TABLE users RENAME COLUMN status TO active
 ```
 
+
+# SQL - Comandos DML (Data Manipulation Language)
+
+C - Create -> `INSERT` 
+
+R - Read   -> `SELECT`
+
+U - Update -> `UPADATE`
+
+D - Delete -> `DELETE`
+
