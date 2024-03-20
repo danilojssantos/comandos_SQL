@@ -24,3 +24,26 @@ Para renomear uma tabela, use a seguinte exemplo:
 ```bash
 ALTER TABLE clientes RENAME TO users
 ```
+## ALTER TABLE ADD
+
+Adiciona uma coluna, use a seguinte exemplo:
+
+```bash
+ALTER TABLE users ADD status VARCHAR
+```
+
+## ALTER TABLE RENAME COLUMN
+
+Para renomear uma coluna em uma tabela, use a seguinte exemplo:
+
+```bash
+ALTER TABLE users RENAME COLUMN status TO active
+```
+## ALTER TABLE DROP COLUMN
+
+Para excluir uma coluna de uma tabela, use a seguinte exemplo: 
+
+```bash
+ALTER TABLE users RENAME COLUMN status TO active
+```
+
