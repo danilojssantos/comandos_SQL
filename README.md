@@ -74,6 +74,11 @@ SELECT * FROM instrução é usada para selecionar dados de um banco de dados, r
 ```bash
 SELECT * FROM users
 ```
+instrução é usada para selecionar dados de um banco de dado por exemplo id nome email
+
+```bash
+SELECT id, name, email  FROM  users;
+```
 
 ## UPDATE 
 UPDATE instrução é usada para modificar os registros existentes em uma tabela.
