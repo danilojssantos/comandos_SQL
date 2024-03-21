@@ -61,7 +61,7 @@ D - Delete -> `DELETE`
 
 ## INSERT INTO 
 
-A INSERT INTO instrução é usada para inserir novos registros em uma tabela.
+A `INSERT INTO `instrução é usada para inserir novos registros em uma tabela.
 
 ```bash
 INSERT INTO users(name, email, password)
@@ -69,7 +69,7 @@ VALUES
 ('Danilo','danilojssantos1@gmail.com','123')
 ```
 ## SELECT 
-SELECT * FROM instrução é usada para selecionar dados de um banco de dados, retornar todas as colunas
+`SELECT * FROM` instrução é usada para selecionar dados de um banco de dados, retornar todas as colunas
 
 ```bash
 SELECT * FROM users
@@ -81,10 +81,15 @@ SELECT id, name, email  FROM  users;
 ```
 
 ## UPDATE 
-UPDATE instrução é usada para modificar os registros existentes em uma tabela.
+`UPDATE` instrução é usada para modificar os registros existentes em uma tabela.
 
 ```bash
 UPDATE users SET avatar = 'danilo.png'
 WHERE id = 1
+```
+## DELETE 
+`DELETE` instrução é usada para excluir registros existentes em uma tabela.
+```bash
+DELETE FROM users WHERE id = 2
 ```
 
