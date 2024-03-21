@@ -7,14 +7,14 @@
 A CREATE TABLE instrução é usada para criar uma nova tabela em um banco de dados.
 
 ```bash
-  CREATE TABLE users(
+    CREATE TABLE users(
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
 	name VARCHAR,
 	email VARCHAR,
 	password VARCHAR,
 	avatar VARCHAR NULL,
-	create_at TIMESTAMP CURRENT_TIMESTAMP,
-	update_at TIMESTAMP CURRENT_TIMESTAMP
+	create_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP, 
+	update_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP 
 )
 ```
 ## ALTER TABLE
